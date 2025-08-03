@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+💼 AI-Powered Career Advisor
+An AI-driven career guidance platform that helps users make informed career decisions through personalized assessments, resume analysis, salary insights, trending skills, and learning roadmaps.
 
-## Project info
+🚀 Features
+✅ Career Assessment – Evaluate your skills and interests with AI
+✅ Career Path Suggestions – Explore recommended roles and opportunities
+✅ Trending Skills – Discover in-demand technologies and skills
+✅ Resume Analyzer – Upload your resume and get AI-powered analysis
+✅ Job Insights & Salary Analysis – Data-driven insights for better decisions
+✅ Learning Roadmap – Step-by-step guidance to achieve your goals
+✅ AI Assistant – Ask career-related questions and get instant answers
 
-**URL**: https://lovable.dev/projects/66b0acdf-fed1-4cd1-ba91-8ac8e90ecf74
+🖼 Preview
 
-## How can I edit this code?
+🛠 Tech Stack
+React (TypeScript) – Frontend framework
 
-There are several ways of editing your application.
+Vite – Fast build tool
 
-**Use Lovable**
+Tailwind CSS – Modern styling
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/66b0acdf-fed1-4cd1-ba91-8ac8e90ecf74) and start prompting.
+shadcn/ui – UI components
 
-Changes made via Lovable will be committed automatically to this repo.
+Lucide Icons – Icon set
 
-**Use your preferred IDE**
+Lovable – AI-powered project generator
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚡ Getting Started
+✅ Installation
+bash
+Copy code
+# Clone the repository
+git clone <YOUR_REPO_URL>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Navigate to the project directory
+cd career-advisor-ai
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+✅ Run Development Server
+bash
+Copy code
 npm run dev
-```
+Your app will be available at http://localhost:5173/
 
-**Edit a file directly in GitHub**
+🌍 Deployment
+You can deploy this project on Netlify, Vercel, or any static hosting service.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+bash
+Copy code
+npm run build
+This will generate a dist/ folder for deployment.
 
-**Use GitHub Codespaces**
+🔥 Key Highlights
+✔ Responsive Design – Optimized for all screen sizes
+✔ Customizable – Easily update career paths and AI logic
+✔ Scalable Architecture – Ready for backend integration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📌 Future Enhancements
+✅ Add real-time job market data integration
 
-## What technologies are used for this project?
+✅ AI chatbot with GPT-powered responses
 
-This project is built with:
+✅ User authentication for saving career plans
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/66b0acdf-fed1-4cd1-ba91-8ac8e90ecf74) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🤝 Contributing
+Contributions are welcome!
+Fork the repo and create a pull request with your changes.
