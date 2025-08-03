@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -39,4 +41,29 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* ✅ New Button Styles */
+button {
+  background-color: #6a0dad; /* Purple background */
+  color: #fff; /* White text for contrast */
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #4b0082; /* Darker purple on hover */
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
 }
